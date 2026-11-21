@@ -7,3 +7,4 @@ imbalanced-learn
 mlxtend
 openpyxl
 jupyter
+ucimlrepo

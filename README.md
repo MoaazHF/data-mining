@@ -2,11 +2,11 @@
 
 Three tasks: classification, regression, association rules.
 
-| Notebook | Task | Owners |
-| --- | --- | --- |
-| `notebooks/1_classification.ipynb` | Customer Churn Prediction | Sama, Nagham, Mariam |
-| `notebooks/2_regression.ipynb` | Car Price Prediction | Mostafa, Hazem |
-| `notebooks/3_association.ipynb` | Product Recommendation System | Marwan, Moaaz |
+| Notebook                             | Task                          | Owners               |
+| ------------------------------------ | ----------------------------- | -------------------- |
+| `notebooks/1_classification.ipynb` | Customer Churn Prediction     | Sama, Nagham, Mariam |
+| `notebooks/2_regression.ipynb`     | Car Price Prediction          | Mostafa, Hazem       |
+| `notebooks/3_association.ipynb`    | Product Recommendation System | Marwan, Moaaz        |
 
 Each notebook is split into sections A–G matching the grading criteria. Every section names its owner.
 
@@ -25,18 +25,18 @@ jupyter notebook
 ```python
 !git clone https://github.com/MoaazHF/a.git
 %cd a/notebooks
-!pip install -q imbalanced-learn mlxtend
+!pip install -q imbalanced-learn mlxtend ucimlrepo
 ```
 
 ## Datasets
 
 Download and save into `data/` with exactly these names:
 
-| File | Source |
-| --- | --- |
-| `data/churn.csv` | [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) (`WA_Fn-UseC_-Telco-Customer-Churn.csv`) |
-| `data/cars.csv` | [Vehicle dataset from CarDekho](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho) (`Car details v3.csv`) |
-| `data/online_retail.xlsx` | [Online Retail, UCI](https://archive.ics.uci.edu/dataset/352/online+retail) (`Online Retail.xlsx`) |
+| File                        | Source                                                                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `data/churn.csv`          | [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) (`WA_Fn-UseC_-Telco-Customer-Churn.csv`)  |
+| `data/cars.csv`           | [Vehicle dataset from CarDekho](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho) (`Car details v3.csv`) |
+| `data/online_retail.xlsx` | [Online Retail, UCI](https://archive.ics.uci.edu/dataset/352/online+retail) (`Online Retail.xlsx`)                               |
 
 ## Working rules
 
