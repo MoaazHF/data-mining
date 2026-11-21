@@ -30,13 +30,13 @@ jupyter notebook
 
 ## Datasets
 
-Download and save into `data/` with exactly these names:
+Download the first two into `data/` with exactly these names. The third is fetched by the notebook itself.
 
 | File                        | Source                                                                                                                          |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | `data/churn.csv`          | [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) (`WA_Fn-UseC_-Telco-Customer-Churn.csv`)  |
 | `data/cars.csv`           | [Vehicle dataset from CarDekho](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho) (`Car details v3.csv`) |
-| `data/online_retail.xlsx` | [Online Retail, UCI](https://archive.ics.uci.edu/dataset/352/online+retail) (`Online Retail.xlsx`)                               |
+| — (downloaded automatically) | [Online Retail, UCI](https://archive.ics.uci.edu/dataset/352/online+retail), loaded in the notebook via `ucimlrepo` (internet required) |
 
 ## Working rules
 
